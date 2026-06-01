@@ -70,5 +70,6 @@ Testing/
 .cache/
 
 # other
+*.txt
 obj_dir/
 run_sim.bat

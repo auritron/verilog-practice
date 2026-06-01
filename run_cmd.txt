@@ -1,1 +1,0 @@
-run_sim directory/to/module_and_tesbench
