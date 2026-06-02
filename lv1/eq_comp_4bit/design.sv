@@ -5,7 +5,7 @@ module eq_comp_4bit(
 );
   
   logic [3:0] eq_in;
-  always @(*) begin
+  always_comb begin
     for (int i = 0; i < 4; i = i+1)
       eq_in[i] = in_a[i] ~^ in_b[i];
   end
