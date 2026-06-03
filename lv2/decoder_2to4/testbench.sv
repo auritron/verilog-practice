@@ -1,10 +1,10 @@
 `timescale 1ns/1ps
 
-module decoder_2to4_tb ();
+module decoder_4to2_tb ();
   logic [1:0] tb_in;
   logic [3:0] tb_out;
   
-  decoder_2to4 DUT (
+  decoder_4to2 DUT (
     .in(tb_in),
     .out(tb_out)
   );

@@ -1,4 +1,4 @@
-module decoder_2to4 (
+module decoder_4to2 (
   input logic [1:0] in,
   output logic [3:0] out
 );
