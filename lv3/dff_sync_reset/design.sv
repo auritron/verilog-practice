@@ -1,6 +1,6 @@
 module dff_sync_reset (
   input logic d,
-  input logic reset,
+  input logic reset, //active HIGH
   input logic clk,
   output logic q
 );
