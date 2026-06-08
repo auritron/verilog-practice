@@ -102,9 +102,9 @@ module vending_machine_tb;
   endtask
 
   initial begin
-    tb_reset    = 1'b1;
-    tb_coin5    = 1'b0;
-    tb_coin10   = 1'b0;
+    tb_reset = 1'b1;
+    tb_coin5 = 1'b0;
+    tb_coin10 = 1'b0;
     tb_select_a = 1'b0;
     tb_select_b = 1'b0;
     tb_select_c = 1'b0;
